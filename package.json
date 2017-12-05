@@ -6,7 +6,7 @@
   "scripts": {
     "test-jasmine": "jasmine",
     "test-karma": "karma start",
-    "test":"karma start --single run"
+    "test": "karma start --single run"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/higorlaf12/Calculadora-js#readme",
   "devDependencies": {
+    "bootstrap": "^3.3.7",
     "browserify": "^14.5.0",
     "jasmine": "^2.8.0",
     "karma": "^1.7.1",
