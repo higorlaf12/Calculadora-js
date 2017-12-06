@@ -2,7 +2,7 @@ describe("Suite de teste de adição",function () {
 
     var Calculadora = require('../../src/js/calculadora.js');
 
-    it('Deve retornar 5 par 2 e 3',function () {
+    it('Deve retornar 5 para 2 e 3',function () {
        expect(Calculadora.adicionar(2,3)).toEqual(5);
     });
 
@@ -13,7 +13,7 @@ describe("Suite de teste de adição",function () {
     it("Deve retornar 4.5 para 1.5 e 3",function () {
         expect(Calculadora.adicionar(1.5,3)).toEqual(4.5);
     });
-    
+
     it("Deve reortnar 0 quando valor 1 não for numérico",function () {
         expect(Calculadora.adicionar(undefined,10)).toEqual(0);
     });
